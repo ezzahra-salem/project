@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      background-image: url("image/back.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    header {
+      background-color: rgb(255, 255, 255);
+      width: 90%;
+      position: fixed;
+      right: 0%;
+      top: 0%;
+      z-index: 999;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 100px;
+    }
+    .logo {
+      text-decoration: none;
+      color: darkmagenta;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 1.5em;
+    }
+    .navigation a {
+      color: darkmagenta;
+      text-decoration: none;
+      font-size: 1.1em;
+      font-weight: 500;
+      padding-left: 30px;
+    }
+
+    .content {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background-color: #fff;
+      width: 20.25em;
+      box-shadow: 0 5px 25px rgb(19, 15, 21);
+      border-radius: 20px;
+      padding: 40px;
+      margin: 20px;
+      transition: 0.7s ease;
+    }
+    .card:hover {
+      transform: scale(1.1);
+    }
+
+    .info {
+      text-align: center;
+    }
+
+    .info h3 {
+      color: #1d49c3;
+      font-size: 1.2em;
+      font-weight: 700;
+      margin: 10px;
+    }
+
+    img {
+      width: 50px;
+    }
+  </style>
+  <body>
+    <header>
+      <a href="#" class="logo">Portfolio</a>
+      <nav class="navigation">
+        <a href="workshop.html">Home</a>
+        <a href="Service.html">Service</a>
+        <a href="Contact.html">Contact</a>
+      </nav>
+    </header>
+    <center>
+      <section class="card" id="content">
+        <h2 class="title">let's work with me</h2>
+        <div class="content">
+          <div class="card">
+            <div class="icon">
+              <img src="image/phone-call.png" />
+            </div>
+            <div class="info">
+              <h3>phone number</h3>
+              <p>+216.52931826</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon">
+              <img src="image/mail.png" />
+            </div>
+            <div class="info">
+              <h3>Email</h3>
+              <p>Ezzahra.fatma.salem@gmail.com</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="icon">
+              <img src="image/linkedin.png" />
+            </div>
+            <div class="info">
+              <h3>linkidin</h3>
+              <p>mon compt</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </center>
+  </body>
+</html>

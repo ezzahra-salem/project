@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>mon premier portfolio</title>
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      font-family: "josefin Sans", sans-serif;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      background-image: url("image/back.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    header {
+      background-color: white;
+      width: 100%;
+      position: fixed;
+      z-index: 999;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 200px;
+    }
+    .logo {
+      text-decoration: none;
+      color: darkmagenta;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 1.5em;
+    }
+    .navigation a {
+      color: darkmagenta;
+      text-decoration: none;
+      font-size: 1.1em;
+      font-weight: 500;
+      padding-left: 30px;
+    }
+    section {
+      padding: 100px 200px;
+    }
+
+    .intro {
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      align-items: left;
+      margin-right: 50px;
+      z-index: 999;
+    }
+    .intro h2 {
+      color: rgb(5, 5, 5);
+      font-size: 1.4em;
+      font-weight: 500;
+    }
+
+    .intro span{
+      display: inline-block;
+      margin-top: 10px;
+      color: rgb(208, 31, 119);
+      font-size : 3em;
+      font-weight : 600;
+    }
+
+    h3 {
+      color: rgb(0, 0, 0);
+      font-size: 2em;
+      font-weight: 500;
+      letter-spacing: 1px;
+      margin-top: 10px;
+      margin-bottom: 30px;
+    }
+    .title {
+      display: flex;
+      justify-content: center;
+    }
+
+    .image {
+      height: 100%;
+      position: absolute;
+      left: 50%;
+      transform: translateX(50%);
+      padding: 0;
+    }
+  </style>
+  <body>
+    <header>
+      <a href="#" class="logo">Portfolio</a>
+      <nav class="navigation">
+        <a href="workshop.html">Home</a>
+        <a href="Service.html">Service</a>
+        <a href="Contact.html">Contact</a>
+      </nav>
+    </header>
+    <section class="intro">
+        <div class="image"><img class="image" src=image/fatamtam.png /></div>
+        <div class="class">
+          <h2>
+            Hello,I'm Zahra<br /><span
+              >Graphic designer<br />Junior web developer</span
+            >
+          </h2>
+          <h3>
+            creating bold and brave interface 
+            <h3> design for
+            companies for across the world</h3>
+        </div>
+    </section>
+  </body>
+</html>

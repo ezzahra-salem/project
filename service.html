@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <style>
+    .title {
+      display: flex;
+      justify-content: center;
+      font-size: 2.2em;
+      font-weight: 800;
+      margin-bottom: 30px;
+    }
+    .content {
+      display: flex;
+      justify-content: center;
+      flex-direction:column;
+      flex-wrap: nowrap;
+      text-align: center;
+    }
+
+    .card {
+      background-color: #fff;
+      width: 21.25em;
+      box-shadow: 0 5px 25px rgb(19, 15, 21);
+      border-radius: 10px;
+      padding: 15px;
+      margin: 15px;
+      transition: 0.7s ease;
+    }
+    .card:hover {
+      transform: scale(1.1);
+    }
+
+
+    .info {
+      text-align: center;
+    }
+
+    .info h3 {
+      color: #3a6cf4;
+      font-size: 1.2em;
+      font-weight: 700;
+      margin: 10px;
+    }
+
+      body {
+      background-image: url("image/back.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    
+    header {
+      background-color: rgb(255, 255, 255);
+      width: 100%;
+      position: fixed;
+      z-index: 999;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 200px;
+    }
+
+    .logo {
+      text-decoration: none;
+      color: darkmagenta;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 1.5em;
+    }
+    .nav a {
+      color: darkmagenta;
+      text-decoration: none;
+      font-size: 1.1em;
+      font-weight: 500;
+      padding-left: 30px;
+    }
+    img{
+      width: 70px;
+    }
+    * {
+      padding: 0;
+      margin: 0;
+      font-family: "josefin Sans", sans-serif;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+  </style>
+
+  <body>
+    <header>
+      <a href="#" class="logo">services</a>
+      <nav class="nav">
+        <a href="workshop.html">Home</a>
+        <a href="service.html">Service</a>
+        <a href="Contact.html">Contact</a>
+      </nav>
+    </header>
+    <section class="cards">
+      <h2 class="title">Services</h2>
+      <div class="info">
+        <center>
+        <div class="card">
+          <div class="info">
+            <img src="image/coding.png">
+            <h3>dev</h3>
+            <p>I create and maintain websites. I am responsible for the general appearance and content of the site. I also handle the technical aspects of the website,</p>
+          </div>
+        </div>
+        </center>
+        <center>
+        <div class="card">
+          <div class="info">
+            <img src="image/cv.png">
+            <h3>Edit profisional CV</h3>
+            <p>English/French pro CV</p>
+            <p>
+              Develop complete curriculums for various technical topics to
+              produce digital transformative courses
+            </p>
+          </div>
+        </div>
+        </center>
+        <center>
+          <div class="card">
+            <div class="info">
+              <img src="image/web-design.png">
+              <h3>Graphic designer</h3>
+              <p>#</p>
+            </div>
+          </div>
+          </center>
+    </section>
+  </body>
+</html>
